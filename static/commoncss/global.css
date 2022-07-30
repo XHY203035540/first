@@ -1,0 +1,32 @@
+body,
+html {
+	-webkit-user-select: auto;
+	user-select: auto;
+	font-size: 36rpx;
+	font-weight: 500;
+	color: white;
+	width: 750rpx;
+	background-color: #282C35;
+}
+
+body {
+	/* padding-top: 75rpx; */
+
+}
+
+uni-input,
+.input-placeholder {
+	/* 设置input大小 */
+	line-height: 40rpx;
+	font-size: 36rpx;
+	height: 40rpx;
+}
+
+/* 闪烁的颜色 */
+.twinkleWheat {
+	color: wheat;
+}
+
+.twinkleWhite {
+	color: white;
+}
