@@ -13,9 +13,7 @@
             '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
             (coverSupport ? ', viewport-fit=cover' : '') + '" />')
     </script>
-    <script>
-        alert('用手机开发模式游玩效果更佳~')
-    </script>
+    
     <link rel=stylesheet href=/unisg/static/index.2772579d.css>
 </head>
 
@@ -23,6 +21,15 @@
     <div id=app></div>
     <script src=/unisg/static/js/chunk-vendors.8efea900.js></script>
     <script src=/unisg/static/js/index.cdc3cfd9.js></script>
+    <script>
+        window.onload=function(){
+            let screenWidth = document.body.clientWidth;
+            if (screenWidth > 950) {
+                // 电脑
+                document.body.style.width = '375px';
+            }
+        }
+    </script>
 </body>
 
 </html>
